@@ -12,7 +12,7 @@ Se utilizaron los objetos **ViewBinding**, **ViewModel** y **LiveData**
 
 
 <div>
-    <img src="./images/mainActivity.png.png"  alt="Captura de pantalla de la activity principal" width="200" >
+    <img src="./images/mainActivity.png"  alt="Captura de pantalla de la activity principal" width="200" >
 </div>
 <p>
 <b>Figura 1.</b> Captura de pantalla de la Activity principal
@@ -21,7 +21,7 @@ Se utilizaron los objetos **ViewBinding**, **ViewModel** y **LiveData**
 
 
 <div>
-    <img src="./images/mainActivity3.png.png"  alt="Captura de pantalla de la activity principal rotada" width="300" >
+    <img src="./images/mainActivity3.png"  alt="Captura de pantalla de la activity principal rotada" width="300" >
 </div>
 <p>
 <b>Figura 2.</b> Captura de pantalla de la activity principal rotada
