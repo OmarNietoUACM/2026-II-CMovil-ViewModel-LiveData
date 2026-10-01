@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="20sp"
+        android:padding="10dp"
+         />
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellidos"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="correo"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_genero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="genero"
+        android:textSize="20sp"
+        android:padding="10dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <Button
+            android:id="@+id/btn_previo"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:text="Previo"/>
+        <Button
+            android:id="@+id/btn_siguiete"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="Siguiente"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
